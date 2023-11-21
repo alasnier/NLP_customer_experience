@@ -31,7 +31,7 @@ Analyze feedback from service advisors to predict trends, gather sales informati
 # 🚀 Highlights:
 
 Rendu visuel -> Wordclouds <br>
-Attribtuion d'un score -> NLTK <br>
+Attribution d'un score -> NLTK <br>
 Filtrage par sujet/appareil, par date, par conseiller, ...
 <br>
 <br>
