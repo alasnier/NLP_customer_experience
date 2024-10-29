@@ -1,47 +1,41 @@
-# Introduction
-Data engineering and Data Science are a crucial aspect of any data-driven organisation. It involves the collection, transformation and storage of data to enable effective data analysis and the facilitation of decision-making.
+# Customer Experience NLP
 
-This project provides an example of a data science project that can be applied to a company's customer service department.
-It is based on note-taking by service advisors when receiving customer calls.
-<br>
-<br>
+Ce projet **Customer Experience NLP** est un exemple concret de l'utilisation du **Natural Language Processing (NLP)** pour améliorer le service client dans un contexte professionnel. Réalisé lors d'une mission pour un leader européen des services connectés d'aide à la conduite, ce projet explore comment l'analyse des prises de notes des conseillers lors des appels clients peut révéler des informations précieuses pour l'entreprise.
 
-# 🚀 Latest project done :
-Natural Language Processing 
-<br>
-<br>
+## 🎯 Objectif
 
-# 🚀 Goal of this project :
-Analyze feedback from service advisors to predict trends, gather sales information or raise relevant questions <br>
+L’objectif de ce projet est de :
+1. Analyser les retours des conseillers clients pour identifier des tendances, des opportunités de vente, ou des problématiques récurrentes.
+2. Faciliter la prise de décision en visualisant les résultats de l’analyse textuelle des notes des conseillers.
 
-🔹 Language : Python <img src="./src/python.svg" alt="python" width="50" height="50"> with Pandas <img src="./src/pandas.svg" alt="pandas" width="50" height="50">
+## 🛠️ Stack Technique
 
-🔹 Tools : NLTK <img src="./src/nltk-32x32.png" alt="nltk" width="32" height="32"> , spaCy <img src="./src/spacy.svg" alt="spacy" width="50" height="32"> , Matplotlib <img src="./src/matplotlib.svg" alt="matplotlib" width="50" height="32">
-<br>
-<br>
+- **Langage** : Python (Pandas)
+- **Outils** :
+  - **NLP** : NLTK, spaCy
+  - **Visualisation** : Matplotlib
 
-# 🚀 Project Steps :
+## 📋 Étapes du Projet
 
-- Wordclouds analysis
-- Sentiment analysis
-- Analysis by alert box type
-<br>
-<br>
+1. **Analyses par nuages de mots** :
+   - Visualisation des mots-clés pour détecter les termes les plus courants utilisés par les conseillers
 
-# 🚀 Highlights:
+2. **Analyse des sentiments** :
+   - Attribution de scores de sentiment aux notes des conseillers avec NLTK pour évaluer la satisfaction client
 
-Rendu visuel -> Wordclouds <br>
-Attribution d'un score -> NLTK <br>
-Filtrage par sujet/appareil, par date, par conseiller, ...
-<br>
-<br>
+3. **Analyse par type de boîte d'alerte** :
+   - Filtrage des données pour une analyse approfondie par sujet, appareil, conseiller ou période
 
-Compte rendu de l'etude : [compte_rendu_etude.pdf](compte_rendu_etude.pdf)
-<br>
-<br>
+## ✨ Points Clés
+
+- **Rendu visuel** : Nuages de mots (Wordclouds)
+- **Attribution de scores** : Analyse des sentiments avec NLTK
+- **Filtrage ciblé** : Par sujet/appareil, date, ou conseiller
+
+📄 Consultez le compte rendu de l'étude pour un aperçu détaillé des résultats : [Compte Rendu de l'Étude](compte_rendu_etude.pdf)
 
 ---
----
----
+
+Ce projet de Data Science met en pratique des techniques avancées de **NLP** et de **visualisation de données** pour exploiter les retours des conseillers clients en informations exploitables.  
 
 Enjoy exploring the world of data with this project! If you have any questions, feedback, or issues, please don't hesitate to contact me. Happy coding!
